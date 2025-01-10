@@ -31,7 +31,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 100px 170px;
+  padding: 50px 170px;
 }
 .nav-title {
   font-weight: 800;
@@ -98,7 +98,7 @@ nav ul li a {
 /* main styles */
 main {
   max-width: 1140px;
-  max-height: 550px;
+  /* max-height: 550px; */
   margin: 0 auto;
 }
 main section {
@@ -204,17 +204,67 @@ main section {
   line-height: auto;
   letter-spacing: 0%;
   font-weight: 700;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 .resume-description-derivation-more {
   font-size: 20px;
   line-height: auto;
   letter-spacing: 0%;
   font-weight: 600;
-  margin-bottom: 20;
+  margin-bottom: 20px;
 }
 .resume-description-derivation-skills {
   line-height: 28px;
   letter-spacing: 0%;
   margin-bottom: 30px;
 }
+footer {
+  display: flex;
+  gap: 100px;
+  padding: 130px 230px;
+}
+footer .footer-column {
+  width: 50%;
+  align-items: center;
+}
+.footer-description {
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+  color: #474747;
+}
+footer input[type="text"] {
+  background-color: white;
+  width: 461px;
+  height: 64px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 0px 18px 30px;
+  border: none;
+}
+footer input[type="email"] {
+  background-color: white;
+  width: 461px;
+  height: 64px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 0px 18px 30px;
+  border: none;
+}
+footer textarea {
+  background-color: white;
+  width: 461px;
+  height: 180px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 0px 18px 30px;
+} 
